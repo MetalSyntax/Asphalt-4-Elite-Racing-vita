@@ -1,0 +1,1558 @@
+/Volumes/TOSHIBA EXT/PSVITA Develop/Asphalt-4-Elite-Racing-vita/game_app/ASPHALT4:
+Contents of (__DATA,__objc_classlist) section
+001d9884 0x1d753c _OBJC_CLASS_$_GLoftApp
+    isa        0x1d7500 _OBJC_METACLASS_$_GLoftApp
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d7514
+        flags          0x10
+        instanceStart  4
+        instanceSize   12
+        ivarLayout     0x0
+        name           0x9e6a4 GLoftApp
+        baseMethods    0x1d746c
+            entsize 12
+            count   7
+            name    0x9e8b8 view
+            types   0x9e8fc @8@0:4
+            imp     0x5d44c -[GLoftApp view]
+            name    0x9e8a8 textInputInit:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x5d368 -[GLoftApp textInputInit:]
+            name    0x9e8a0 dealloc
+            types   0x9e8e8 v8@0:4
+            imp     0x5d2c8 -[GLoftApp dealloc]
+            name    0x9e880 applicationWillResignActive:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x5d2a4 -[GLoftApp applicationWillResignActive:]
+            name    0x9e864 applicationDidBecomeActive:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x5d290 -[GLoftApp applicationDidBecomeActive:]
+            name    0x9e848 applicationWillTerminate:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x5d464 -[GLoftApp applicationWillTerminate:]
+            name    0x9e828 applicationDidFinishLaunching:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x5d498 -[GLoftApp applicationDidFinishLaunching:]
+        baseProtocols  0x0
+        ivars          0x1d7428
+            entsize   20
+            count     2
+            offset    0x1d7550 _OBJC_IVAR_$_GLoftApp.m_window 4
+            name      0x9e8dc m_window
+            type      0x9e910 @"UIWindow"
+            alignment 2
+            size      4
+            offset    0x1d7554 _OBJC_IVAR_$_GLoftApp.m_GLView 8
+            name      0x9e8d0 m_GLView
+            type      0x9e904 @"UIGLView"
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x1d74c8
+            entsize    8
+            count      1
+            name       0x9e8b8 view
+            attributes 0x9e91c T@"UIGLView",R,Vm_GLView
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d74d8
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0
+        name           0x9e6a4 GLoftApp
+        baseMethods    0x1d7458
+            entsize 12
+            count   1
+            name    0x9e8c0 sharedInstance
+            types   0x9e8fc @8@0:4
+            imp     0x5d358 +[GLoftApp sharedInstance]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+001d9888 0x1d7694 _OBJC_CLASS_$_UIGLView
+    isa        0x1d7658 _OBJC_METACLASS_$_UIGLView
+    superclass 0x0
+    cache      0x0
+    vtable     0x0 _OBJC_METACLASS_$_NSObject
+    data       0x0 _OBJC_METACLASS_$_NSObject
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d7630
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0
+        name           0x9e9e8 UIGLView
+        baseMethods    0x1d7590
+            entsize 12
+            count   1
+            name    0x9ec04 layerClass
+            types   0x9ec78 #8@0:4
+            imp     0x5dce4 +[UIGLView layerClass]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+001d988c 0x1d76bc _OBJC_CLASS_$_NetReachability
+    isa        0x1d76f8 _OBJC_METACLASS_$_NetReachability
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d76d0
+        flags          0x10
+        instanceStart  4
+        instanceSize   8
+        ivarLayout     0x0
+        name           0x0 _OBJC_CLASS_$_NSObject
+        baseMethods    0x0 __objc_empty_cache
+        baseProtocols  0x0 __objc_empty_vtable
+        ivars          0x1d77c0
+            entsize   20
+            count     1
+            offset    0x1d76b8 _OBJC_IVAR_$_NetReachability._netReachability 4
+            name      0x9edf0 _netReachability
+            type      0x9ed7c ^v
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x1d7734
+            entsize    8
+            count      2
+            name       0x9ed3c reachable
+            attributes 0x9ed48 Tc,R,GisReachable
+            name       0x9ed5c usingCell
+            attributes 0x9ed68 Tc,R,GisUsingCell
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d770c
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0
+        name           0x9ee94 NetReachability
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+001d9890 0x1d78fc _OBJC_CLASS_$_Accelerometer
+    isa        0x1d78c0 _OBJC_METACLASS_$_Accelerometer
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d78d4
+        flags          0x10
+        instanceStart  4
+        instanceSize   52
+        ivarLayout     0x0
+        name           0x9eee8 Accelerometer
+        baseMethods    0x1d7870
+            entsize 12
+            count   2
+            name    0x9f02c accelerometer:didAccelerate:
+            types   0x9ec68 v16@0:4@8@12
+            imp     0x60b54 -[Accelerometer accelerometer:didAccelerate:]
+            name    0x9ee8c init
+            types   0x9e8fc @8@0:4
+            imp     0x60ab0 -[Accelerometer init]
+        baseProtocols  0x1d7890
+            count    1
+            list[0]  0x1d7944
+                isa       0x0
+                name      0x9eed0 UIAccelerometerDelegate
+                protocols 0x1d793c
+                    count    1
+                    list[0]  0x1d7a58
+                        isa       0x0
+                        name      0x9eec4 NSObject
+                        protocols 0x0 _OBJC_METACLASS_$_NSObject
+                        instanceMethods 0x0 _OBJC_METACLASS_$_NSObject
+                        classMethods 0x0 __objc_empty_cache
+                        optionalInstanceMethods 0x0 __objc_empty_vtable
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x1d7928
+                    entsize 12
+                    count   1
+                    name    0x9f02c accelerometer:didAccelerate:
+                    types   0x9ec68 v16@0:4@8@12
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x1d77dc
+            entsize   20
+            count     6
+            offset    0x1d7910 _OBJC_IVAR_$_Accelerometer.x 4
+            name      0x9f074 x
+            type      0x9f0ec d
+            alignment 2
+            size      8
+            offset    0x0 _OBJC_METACLASS_$_NSObject
+            name      0x0 _OBJC_METACLASS_$_UIView
+            type      0x0 __objc_empty_cache
+            alignment 2
+            size      8
+            offset    0x1d7918 _OBJC_IVAR_$_Accelerometer.z 20
+            name      0x9f06c z
+            type      0x9f0ec d
+            alignment 2
+            size      8
+            offset    0x1d791c _OBJC_IVAR_$_Accelerometer.dx 28
+            name      0x9f068 dx
+            type      0x9f0ec d
+            alignment 2
+            size      8
+            offset    0x1d7920 _OBJC_IVAR_$_Accelerometer.dy 36
+            name      0x0 _OBJC_CLASS_$_UIView
+            type      0x0 __objc_empty_cache
+            alignment 2
+            size      8
+            offset    0x1d7924 _OBJC_IVAR_$_Accelerometer.dz 44
+            name      0x9f060 dz
+            type      0x9f0ec d
+            alignment 2
+            size      8
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d7898
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0 __objc_empty_vtable
+        name           0x9eee8 Accelerometer
+        baseMethods    0x1d785c
+            entsize 12
+            count   1
+            name    0x0 __objc_empty_cache
+            types   0x0 __objc_empty_vtable
+            imp     0x60cd8 +[Accelerometer getSharedInstance]
+        baseProtocols  0x1d7890
+            count    1
+            list[0]  0x1d7944
+                isa       0x0
+                name      0x9eed0 UIAccelerometerDelegate
+                protocols 0x1d793c
+                    count    1
+                    list[0]  0x1d7a58
+                        isa       0x0
+                        name      0x9eec4 NSObject
+                        protocols 0x0 _OBJC_METACLASS_$_NSObject
+                        instanceMethods 0x0 _OBJC_METACLASS_$_NSObject
+                        classMethods 0x0 __objc_empty_cache
+                        optionalInstanceMethods 0x0 __objc_empty_vtable
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x1d7928
+                    entsize 12
+                    count   1
+                    name    0x9f02c accelerometer:didAccelerate:
+                    types   0x9ec68 v16@0:4@8@12
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+001d9894 0x1d7bc0 _OBJC_CLASS_$_MoviePlayer
+    isa        0x1d7b84 _OBJC_METACLASS_$_MoviePlayer
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d7b98
+        flags          0x10
+        instanceStart  4
+        instanceSize   9
+        ivarLayout     0x0
+        name           0x9f5b0 MoviePlayer
+        baseMethods    0x1d7ae8
+            entsize 12
+            count   9
+            name    0x9e8a0 dealloc
+            types   0x9e8e8 v8@0:4
+            imp     0x654f0 -[MoviePlayer dealloc]
+            name    0x9f7a4 freeMovie
+            types   0x9e8e8 v8@0:4
+            imp     0x65404 -[MoviePlayer freeMovie]
+            name    0x9f77c shouldAutorotateToInterfaceOrientation:
+            types   0x9f7d8 c12@0:4i8
+            imp     0x653fc -[MoviePlayer shouldAutorotateToInterfaceOrientation:]
+            name    0x9f770 isPlaying
+            types   0x9f7d0 C8@0:4
+            imp     0x653e4 -[MoviePlayer isPlaying]
+            name    0x9f764 stopMovie
+            types   0x9e8e8 v8@0:4
+            imp     0x6536c -[MoviePlayer stopMovie]
+            name    0x9f758 playMovie
+            types   0x9e8e8 v8@0:4
+            imp     0x65258 -[MoviePlayer playMovie]
+            name    0x9f74c execPlay
+            types   0x9e8e8 v8@0:4
+            imp     0x65218 -[MoviePlayer execPlay]
+            name    0x9f73c initWithFile:
+            types   0x9ed88 @12@0:4@8
+            imp     0x64fb4 -[MoviePlayer initWithFile:]
+            name    0x9f724 moviePlayBackDidFinish:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x64f98 -[MoviePlayer moviePlayBackDidFinish:]
+        baseProtocols  0x0
+        ivars          0x1d7aa4
+            entsize   20
+            count     2
+            offset    0x1d7bd4 _OBJC_IVAR_$_MoviePlayer.mMoviePlayer 4
+            name      0x9f7c0 mMoviePlayer
+            type      0x9f7e8 @"MPMoviePlayerController"
+            alignment 2
+            size      4
+            offset    0x1d7bd8 _OBJC_IVAR_$_MoviePlayer.isMoviePlaying 8
+            name      0x9f7b0 isMoviePlaying
+            type      0x9f7e4 C
+            alignment 0
+            size      1
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d7b5c
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0
+        name           0x9f5b0 MoviePlayer
+        baseMethods    0x1d7ad4
+            entsize 12
+            count   1
+            name    0x9f04c getSharedInstance
+            types   0x9e8fc @8@0:4
+            imp     0x65208 +[MoviePlayer getSharedInstance]
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+001d9898 0x1d7cd8 _OBJC_CLASS_$_TextInputInitParams
+    isa        0x1d7c9c _OBJC_METACLASS_$_TextInputInitParams
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d7cb0
+        flags          0x10
+        instanceStart  4
+        instanceSize   28
+        ivarLayout     0x0
+        name           0xa0b38 TextInputInitParams
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x1d7bf4
+            entsize   20
+            count     6
+            offset    0x1d7e34 _OBJC_IVAR_$_TextInputInitParams.textBuff 4
+            name      0xa0e30 textBuff
+            type      0xa0e8c @
+            alignment 2
+            size      4
+            offset    0x1d7e38 _OBJC_IVAR_$_TextInputInitParams.buffSize 8
+            name      0xa0e24 buffSize
+            type      0xa0e88 I
+            alignment 2
+            size      4
+            offset    0x1d7e3c _OBJC_IVAR_$_TextInputInitParams.x 12
+            name      0x9f074 x
+            type      0x9ec90 i
+            alignment 2
+            size      4
+            offset    0x1d7e40 _OBJC_IVAR_$_TextInputInitParams.y 16
+            name      0x9f070 y
+            type      0x9ec90 i
+            alignment 2
+            size      4
+            offset    0x1d7e44 _OBJC_IVAR_$_TextInputInitParams.w 20
+            name      0xa0e20 w
+            type      0x9ec90 i
+            alignment 2
+            size      4
+            offset    0x1d7e48 _OBJC_IVAR_$_TextInputInitParams.h 24
+            name      0xa0e1c h
+            type      0x9ec90 i
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d7c74
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0
+        name           0xa0b38 TextInputInitParams
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+001d989c 0x1d7e20 _OBJC_CLASS_$_TextInput
+    isa        0x1d7de4 _OBJC_METACLASS_$_TextInput
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d7df8
+        flags          0x10
+        instanceStart  64
+        instanceSize   80
+        ivarLayout     0x0
+        name           0xa0b2c TextInput
+        baseMethods    0x1d7d64
+            entsize 12
+            count   6
+            name    0x0 __objc_empty_vtable
+            types   0x9e8e8 v8@0:4
+            imp     0x8da60 -[TextInput dealloc]
+            name    0xa0dd8 textFieldDidChange:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x8d874 -[TextInput textFieldDidChange:]
+            name    0xa0dc0 textFieldShouldReturn:
+            types   0x9f0c4 c12@0:4@8
+            imp     0x8d79c -[TextInput textFieldShouldReturn:]
+            name    0xa0db8 isDone
+            types   0x9ed80 c8@0:4
+            imp     0x8d738 -[TextInput isDone]
+            name    0xa0d98 textFieldShouldBeginEditing:
+            types   0x9f0c4 c12@0:4@8
+            imp     0x8d730 -[TextInput textFieldShouldBeginEditing:]
+            name    0x9e7e4 initWithTextBuffer:WithSize:AtX:Y:Width:Height:
+            types   0xa0e58 @32@0:4*8I12i16i20i24i28
+            imp     0x8d3dc -[TextInput initWithTextBuffer:WithSize:AtX:Y:Width:Height:]
+        baseProtocols  0x1d7db4
+            count    1
+            list[0]  0x1d7ec0
+                isa       0x0
+                name      0xa0b18 UITextFieldDelegate
+                protocols 0x1d7eb8
+                    count    1
+                    list[0]  0x1d7fd4
+                        isa       0x0
+                        name      0x9eec4 NSObject
+                        protocols 0x0
+                        instanceMethods 0x1d7ee8
+                            entsize 12
+                            count   19
+                            name    0x9ee04 description
+                            types   0x9e8fc @8@0:4
+                            imp     0x0
+                            name    0x9efe8 retainCount
+                            types   0x9f0e4 I8@0:4
+                            imp     0x0
+                            name    0x9efdc autorelease
+                            types   0x9e8fc @8@0:4
+                            imp     0x0
+                            name    0x9e708 release
+                            types   0x9f0dc Vv8@0:4
+                            imp     0x0
+                            name    0x9efd4 retain
+                            types   0x9e8fc @8@0:4
+                            imp     0x0
+                            name    0x9efc0 respondsToSelector:
+                            types   0x9f0d0 c12@0:4:8
+                            imp     0x0
+                            name    0x9efac conformsToProtocol:
+                            types   0x9f0c4 c12@0:4@8
+                            imp     0x0
+                            name    0x9ef98 isMemberOfClass:
+                            types   0x9f0b8 c12@0:4#8
+                            imp     0x0
+                            name    0x9ef88 isKindOfClass:
+                            types   0x9f0b8 c12@0:4#8
+                            imp     0x0
+                            name    0x9ef80 isProxy
+                            types   0x9ed80 c8@0:4
+                            imp     0x0
+                            name    0x9ef58 performSelector:withObject:withObject:
+                            types   0x9f0a8 @20@0:4:8@12@16
+                            imp     0x0
+                            name    0x9ef3c performSelector:withObject:
+                            types   0x9f098 @16@0:4:8@12
+                            imp     0x0
+                            name    0x9ef28 performSelector:
+                            types   0x0 _OBJC_METACLASS_$_NSObject
+                            imp     0x0 _OBJC_METACLASS_$_UIViewController
+                            name    0x0 __objc_empty_cache
+                            types   0x0 __objc_empty_vtable
+                            imp     0x0
+                            name    0x9ef18 self
+                            types   0x9e8fc @8@0:4
+                            imp     0x0
+                            name    0x9ead0 class
+                            types   0x9ec78 #8@0:4
+                            imp     0x0
+                            name    0x9ef0c superclass
+                            types   0x9ec78 #8@0:4
+                            imp     0x0
+                            name    0x9ef04 hash
+                            types   0x9f0e4 I8@0:4
+                            imp     0x0 _OBJC_CLASS_$_UIViewController
+                            name    0x0 __objc_empty_cache
+                            types   0x0 __objc_empty_vtable
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x1d7e5c
+                    entsize 12
+                    count   7
+                    name    0xa0dc0 textFieldShouldReturn:
+                    types   0x9f0c4 c12@0:4@8
+                    imp     0x0
+                    name    0xa0bd8 textFieldShouldClear:
+                    types   0x9f0c4 c12@0:4@8
+                    imp     0x0
+                    name    0x0 _OBJC_CLASS_$_NSObject
+                    types   0x0 __objc_empty_cache
+                    imp     0x0 __objc_empty_vtable
+                    name    0xa0b84 textFieldDidEndEditing:
+                    types   0x9e8f0 v12@0:4@8
+                    imp     0x0
+                    name    0xa0b68 textFieldShouldEndEditing:
+                    types   0x9f0c4 c12@0:4@8
+                    imp     0x0
+                    name    0xa0b4c textFieldDidBeginEditing:
+                    types   0x9e8f0 v12@0:4@8
+                    imp     0x0
+                    name    0xa0d98 textFieldShouldBeginEditing:
+                    types   0x9f0c4 c12@0:4@8
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x1d7cec
+            entsize   20
+            count     4
+            offset    0x1d7e4c _OBJC_IVAR_$_TextInput.textField 64
+            name      0xa0e10 textField
+            type      0xa0e78 @"UITextField"
+            alignment 2
+            size      4
+            offset    0x1d7e50 _OBJC_IVAR_$_TextInput.done 68
+            name      0xa0e08 done
+            type      0x9f7e4 C
+            alignment 0
+            size      1
+            offset    0x1d7e54 _OBJC_IVAR_$_TextInput.textBuffer 72
+            name      0xa0dfc textBuffer
+            type      0x0 _OBJC_METACLASS_$_NSObject
+            alignment 2
+            size      4
+            offset    0x0 __objc_empty_vtable
+            name      0xa0dec textBufferSize
+            type      0xa0e88 I
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d7dbc
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0
+        name           0xa0b2c TextInput
+        baseMethods    0x1d7d44
+            entsize 12
+            count   2
+            name    0x9e814 setSharedInstance:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x8d6f0 +[TextInput setSharedInstance:]
+            name    0x9f04c getSharedInstance
+            types   0x9e8fc @8@0:4
+            imp     0x8d6e0 +[TextInput getSharedInstance]
+        baseProtocols  0x1d7db4
+            count    1
+            list[0]  0x1d7ec0
+                isa       0x0
+                name      0xa0b18 UITextFieldDelegate
+                protocols 0x1d7eb8
+                    count    1
+                    list[0]  0x1d7fd4
+                        isa       0x0
+                        name      0x9eec4 NSObject
+                        protocols 0x0
+                        instanceMethods 0x1d7ee8
+                            entsize 12
+                            count   19
+                            name    0x9ee04 description
+                            types   0x9e8fc @8@0:4
+                            imp     0x0
+                            name    0x9efe8 retainCount
+                            types   0x9f0e4 I8@0:4
+                            imp     0x0
+                            name    0x9efdc autorelease
+                            types   0x9e8fc @8@0:4
+                            imp     0x0
+                            name    0x9e708 release
+                            types   0x9f0dc Vv8@0:4
+                            imp     0x0
+                            name    0x9efd4 retain
+                            types   0x9e8fc @8@0:4
+                            imp     0x0
+                            name    0x9efc0 respondsToSelector:
+                            types   0x9f0d0 c12@0:4:8
+                            imp     0x0
+                            name    0x9efac conformsToProtocol:
+                            types   0x9f0c4 c12@0:4@8
+                            imp     0x0
+                            name    0x9ef98 isMemberOfClass:
+                            types   0x9f0b8 c12@0:4#8
+                            imp     0x0
+                            name    0x9ef88 isKindOfClass:
+                            types   0x9f0b8 c12@0:4#8
+                            imp     0x0
+                            name    0x9ef80 isProxy
+                            types   0x9ed80 c8@0:4
+                            imp     0x0
+                            name    0x9ef58 performSelector:withObject:withObject:
+                            types   0x9f0a8 @20@0:4:8@12@16
+                            imp     0x0
+                            name    0x9ef3c performSelector:withObject:
+                            types   0x9f098 @16@0:4:8@12
+                            imp     0x0
+                            name    0x9ef28 performSelector:
+                            types   0x0 _OBJC_METACLASS_$_NSObject
+                            imp     0x0 _OBJC_METACLASS_$_UIViewController
+                            name    0x0 __objc_empty_cache
+                            types   0x0 __objc_empty_vtable
+                            imp     0x0
+                            name    0x9ef18 self
+                            types   0x9e8fc @8@0:4
+                            imp     0x0
+                            name    0x9ead0 class
+                            types   0x9ec78 #8@0:4
+                            imp     0x0
+                            name    0x9ef0c superclass
+                            types   0x9ec78 #8@0:4
+                            imp     0x0
+                            name    0x9ef04 hash
+                            types   0x9f0e4 I8@0:4
+                            imp     0x0 _OBJC_CLASS_$_UIViewController
+                            name    0x0 __objc_empty_cache
+                            types   0x0 __objc_empty_vtable
+                            imp     0x0
+                        classMethods 0x0
+                        optionalInstanceMethods 0x0
+                        optionalClassMethods 0x0
+                        instanceProperties 0x0
+                instanceMethods 0x0
+                classMethods 0x0
+                optionalInstanceMethods 0x1d7e5c
+                    entsize 12
+                    count   7
+                    name    0xa0dc0 textFieldShouldReturn:
+                    types   0x9f0c4 c12@0:4@8
+                    imp     0x0
+                    name    0xa0bd8 textFieldShouldClear:
+                    types   0x9f0c4 c12@0:4@8
+                    imp     0x0
+                    name    0x0 _OBJC_CLASS_$_NSObject
+                    types   0x0 __objc_empty_cache
+                    imp     0x0 __objc_empty_vtable
+                    name    0xa0b84 textFieldDidEndEditing:
+                    types   0x9e8f0 v12@0:4@8
+                    imp     0x0
+                    name    0xa0b68 textFieldShouldEndEditing:
+                    types   0x9f0c4 c12@0:4@8
+                    imp     0x0
+                    name    0xa0b4c textFieldDidBeginEditing:
+                    types   0x9e8f0 v12@0:4@8
+                    imp     0x0
+                    name    0xa0d98 textFieldShouldBeginEditing:
+                    types   0x9f0c4 c12@0:4@8
+                    imp     0x0
+                optionalClassMethods 0x0
+                instanceProperties 0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+001d98a0 0x1d81a4 _OBJC_CLASS_$_IGPLinkGrabber
+    isa        0x1d8168 _OBJC_METACLASS_$_IGPLinkGrabber
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d817c
+        flags          0x10
+        instanceStart  4
+        instanceSize   288
+        ivarLayout     0x0
+        name           0xa11b8 IGPLinkGrabber
+        baseMethods    0x1d80cc
+            entsize 12
+            count   9
+            name    0xa1018 currentStatus
+            types   0xa13b8 i8@0:4
+            imp     0x9accc -[IGPLinkGrabber currentStatus]
+            name    0xa1044 getFinalLink
+            types   0xa13b0 *8@0:4
+            imp     0x9acb4 -[IGPLinkGrabber getFinalLink]
+            name    0xa1328 connectionDidFinishLoading:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x9ab48 -[IGPLinkGrabber connectionDidFinishLoading:]
+            name    0xa1308 connection:didFailWithError:
+            types   0x9ec68 v16@0:4@8@12
+            imp     0x9ab0c -[IGPLinkGrabber connection:didFailWithError:]
+            name    0xa12ec connection:didReceiveData:
+            types   0x9ec68 v16@0:4@8@12
+            imp     0x9aa60 -[IGPLinkGrabber connection:didReceiveData:]
+            name    0xa12cc connection:didReceiveResponse:
+            types   0x9ec68 v16@0:4@8@12
+            imp     0x9a9ec -[IGPLinkGrabber connection:didReceiveResponse:]
+            name    0xa12b4 setDownloadResponse:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x9a998 -[IGPLinkGrabber setDownloadResponse:]
+            name    0xa12a8 getLink:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x9a878 -[IGPLinkGrabber getLink:]
+            name    0xa0fa0 getRedirectLink:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x9a7cc -[IGPLinkGrabber getRedirectLink:]
+        baseProtocols  0x0
+        ivars          0x1d8038
+            entsize   20
+            count     7
+            offset    0x1d81b8 _OBJC_IVAR_$_IGPLinkGrabber.status 4
+            name      0xa13a8 status
+            type      0x9ec90 i
+            alignment 2
+            size      4
+            offset    0x1d81bc _OBJC_IVAR_$_IGPLinkGrabber.bytesReceived 8
+            name      0xa1398 bytesReceived
+            type      0xa13fc q
+            alignment 2
+            size      8
+            offset    0x1d81c0 _OBJC_IVAR_$_IGPLinkGrabber.finalLink 16
+            name      0xa138c finalLink
+            type      0xa13f4 [255c]
+            alignment 0
+            size      255
+            offset    0x1d81c4 _OBJC_IVAR_$_IGPLinkGrabber.downloadSource 272
+            name      0xa137c downloadSource
+            type      0xa13e8 @"NSString"
+            alignment 2
+            size      4
+            offset    0x1d81c8 _OBJC_IVAR_$_IGPLinkGrabber.downloadDestination 276
+            name      0xa1368 downloadDestination
+            type      0xa13e8 @"NSString"
+            alignment 2
+            size      4
+            offset    0x1d81cc _OBJC_IVAR_$_IGPLinkGrabber.downloadResponse 280
+            name      0xa1354 downloadResponse
+            type      0xa13d4 @"NSURLResponse"
+            alignment 2
+            size      4
+            offset    0x1d81d0 _OBJC_IVAR_$_IGPLinkGrabber.receivedData 284
+            name      0xa1344 receivedData
+            type      0xa13c0 @"NSMutableData"
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d8140
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0
+        name           0xa11b8 IGPLinkGrabber
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+001d98a4 0x1d8408 _OBJC_CLASS_$_ReachabilityQuery
+    isa        0x1d8444 _OBJC_METACLASS_$_ReachabilityQuery
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d841c
+        flags          0x10
+        instanceStart  4
+        instanceSize   16
+        ivarLayout     0x0
+        name           0xa1a74 ReachabilityQuery
+        baseMethods    0x1d84a0
+            entsize 12
+            count   11
+            name    0xa1740 setReachabilityRef:
+            types   0xa15a8 v12@0:4^{__SCNetworkReachability=}8
+            imp     0x9bf74 -[ReachabilityQuery setReachabilityRef:]
+            name    0xa1460 reachabilityRef
+            types   0xa15cc ^{__SCNetworkReachability=}8@0:4
+            imp     0x9bf60 -[ReachabilityQuery reachabilityRef]
+            name    0xa1754 setRunLoops:
+            types   0xa15f0 v12@0:4^{__CFArray=}8
+            imp     0x9bf4c -[ReachabilityQuery setRunLoops:]
+            name    0xa1438 runLoops
+            types   0xa1608 ^{__CFArray=}8@0:4
+            imp     0x9bf38 -[ReachabilityQuery runLoops]
+            name    0xa1764 setHostNameOrAddress:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x9bf04 -[ReachabilityQuery setHostNameOrAddress:]
+            name    0xa1400 hostNameOrAddress
+            types   0x9e8fc @8@0:4
+            imp     0x9bef0 -[ReachabilityQuery hostNameOrAddress]
+            name    0xa177c startListeningForReachabilityChanges:onRunLoop:
+            types   0xa161c ^{__CFRunLoop=}16@0:4^{__SCNetworkReachability=}8^{__CFRunLoop=}12
+            imp     0x9be74 -[ReachabilityQuery startListeningForReachabilityChanges:onRunLoop:]
+            name    0xa17ac scheduleOnRunLoop:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x9bd94 -[ReachabilityQuery scheduleOnRunLoop:]
+            name    0xa17c0 isScheduledOnRunLoop:
+            types   0xa1660 c12@0:4^{__CFRunLoop=}8
+            imp     0x9bd20 -[ReachabilityQuery isScheduledOnRunLoop:]
+            name    0x9e8a0 dealloc
+            types   0x9e8e8 v8@0:4
+            imp     0x9bccc -[ReachabilityQuery dealloc]
+            name    0x9ee8c init
+            types   0x9e8fc @8@0:4
+            imp     0x9bc50 -[ReachabilityQuery init]
+        baseProtocols  0x0
+        ivars          0x1d852c
+            entsize   20
+            count     3
+            offset    0x1d81f4 _OBJC_IVAR_$_ReachabilityQuery._reachabilityRef 4
+            name      0xa170c _reachabilityRef
+            type      0xa157c ^{__SCNetworkReachability=}
+            alignment 2
+            size      4
+            offset    0x1d81f0 _OBJC_IVAR_$_ReachabilityQuery._runLoops 8
+            name      0xa1720 _runLoops
+            type      0xa1598 ^{__CFArray=}
+            alignment 2
+            size      4
+            offset    0x1d81f8 _OBJC_IVAR_$_ReachabilityQuery._hostNameOrAddress 12
+            name      0xa172c _hostNameOrAddress
+            type      0xa13e8 @"NSString"
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x1d8480
+            entsize    8
+            count      3
+            name       0xa1400 hostNameOrAddress
+            attributes 0xa1414 T@"NSString",&,V_hostNameOrAddress
+            name       0xa1438 runLoops
+            attributes 0xa1444 T^{__CFArray=},V_runLoops
+            name       0xa1460 reachabilityRef
+            attributes 0xa1470 T^{__SCNetworkReachability=},V_reachabilityRef
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d8458
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0
+        name           0xa1a74 ReachabilityQuery
+        baseMethods    0x0
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+001d98a8 0x1d8204 _OBJC_CLASS_$_Reachability
+    isa        0x1d8240 _OBJC_METACLASS_$_Reachability
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d8218
+        flags          0x10
+        instanceStart  4
+        instanceSize   20
+        ivarLayout     0x0
+        name           0xa1a88 Reachability
+        baseMethods    0x1d82a4
+            entsize 12
+            count   20
+            name    0xa182c setNetworkStatusNotificationsEnabled:
+            types   0xa1694 v12@0:4c8
+            imp     0x9bc3c -[Reachability setNetworkStatusNotificationsEnabled:]
+            name    0xa1530 networkStatusNotificationsEnabled
+            types   0x9ed80 c8@0:4
+            imp     0x9bc28 -[Reachability networkStatusNotificationsEnabled]
+            name    0xa11dc setHostName:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x9bbf4 -[Reachability setHostName:]
+            name    0xa1508 hostName
+            types   0x9e8fc @8@0:4
+            imp     0x9bbe0 -[Reachability hostName]
+            name    0xa1854 setAddress:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x9bbac -[Reachability setAddress:]
+            name    0xa14e4 address
+            types   0x9e8fc @8@0:4
+            imp     0x9bb98 -[Reachability address]
+            name    0xa1860 setReachabilityQueries:
+            types   0x9e8f0 v12@0:4@8
+            imp     0x9bb84 -[Reachability setReachabilityQueries:]
+            name    0xa14a0 reachabilityQueries
+            types   0x9e8fc @8@0:4
+            imp     0x0 _OBJC_METACLASS_$_NSObject
+            name    0x0 _OBJC_METACLASS_$_NSObject
+            types   0x0 __objc_empty_cache
+            imp     0x0 __objc_empty_vtable
+            name    0xa1894 localWiFiConnectionStatus
+            types   0xa13b8 i8@0:4
+            imp     0x9bab0 -[Reachability localWiFiConnectionStatus]
+            name    0xa11ec internetConnectionStatus
+            types   0xa13b8 i8@0:4
+            imp     0x9ba60 -[Reachability internetConnectionStatus]
+            name    0xa18b0 remoteHostStatus
+            types   0xa13b8 i8@0:4
+            imp     0x9b8b4 -[Reachability remoteHostStatus]
+            name    0xa18c4 reachabilityRefForAddress:
+            types   0xa16d0 ^{__SCNetworkReachability=}12@0:4@8
+            imp     0x9b5f4 -[Reachability reachabilityRefForAddress:]
+            name    0x0 _OBJC_CLASS_$_NSObject
+            types   0x0 __objc_empty_cache
+            imp     0x0 __objc_empty_vtable
+            name    0xa18fc stopListeningForReachabilityChanges
+            types   0x9e8e8 v8@0:4
+            imp     0x9b2e4 -[Reachability stopListeningForReachabilityChanges]
+            name    0xa1920 isNetworkAvailableFlags:
+            types   0xa16f4 c12@0:4^I8
+            imp     0x9b140 -[Reachability isNetworkAvailableFlags:]
+            name    0xa193c isAdHocWiFiNetworkAvailableFlags:
+            types   0xa16f4 c12@0:4^I8
+            imp     0x9af08 -[Reachability isAdHocWiFiNetworkAvailableFlags:]
+            name    0xa1960 isHostReachable:
+            types   0x9f0c4 c12@0:4@8
+            imp     0x9ae64 -[Reachability isHostReachable:]
+            name    0xa1974 isReachableWithoutRequiringConnection:
+            types   0xa1700 c12@0:4I8
+            imp     0x9ae48 -[Reachability isReachableWithoutRequiringConnection:]
+            name    0x9e8a0 dealloc
+            types   0x9e8e8 v8@0:4
+            imp     0x9adc0 -[Reachability dealloc]
+        baseProtocols  0x0
+        ivars          0x1d83b0
+            entsize   20
+            count     4
+            offset    0x1d81ec _OBJC_IVAR_$_Reachability._networkStatusNotificationsEnabled 4
+            name      0xa17d8 _networkStatusNotificationsEnabled
+            type      0xa1678 c
+            alignment 0
+            size      1
+            offset    0x1d81fc _OBJC_IVAR_$_Reachability._hostName 8
+            name      0xa17fc _hostName
+            type      0xa13e8 @"NSString"
+            alignment 2
+            size      4
+            offset    0x0 _OBJC_METACLASS_$_NSObject
+            name      0x0 _OBJC_METACLASS_$_NSObject
+            type      0x0 __objc_empty_cache
+            alignment 2
+            size      4
+            offset    0x1d81e8 _OBJC_IVAR_$_Reachability._reachabilityQueries 16
+            name      0xa1814 _reachabilityQueries
+            type      0xa167c @"NSMutableDictionary"
+            alignment 2
+            size      4
+        weakIvarLayout 0x0
+        baseProperties 0x1d827c
+            entsize    8
+            count      4
+            name       0xa14a0 reachabilityQueries
+            attributes 0xa14b4 T@"NSMutableDictionary",V_reachabilityQueries
+            name       0xa14e4 address
+            attributes 0xa14ec T@"NSString",&,V_address
+            name       0xa1508 hostName
+            attributes 0xa1514 T@"NSString",&,V_hostName
+            name       0xa1530 networkStatusNotificationsEnabled
+            attributes 0xa1554 Tc,V_networkStatusNotificationsEnabled
+Meta Class
+    isa        0x0
+    superclass 0x0
+    cache      0x0
+    vtable     0x0
+    data       0x1d8254
+        flags          0x11 RO_META
+        instanceStart  20
+        instanceSize   20
+        ivarLayout     0x0
+        name           0xa1a88 Reachability
+        baseMethods    0x1d839c
+            entsize 12
+            count   1
+            name    0xa11c8 sharedReachability
+            types   0x0 _OBJC_CLASS_$_NSObject
+            imp     0x0 __objc_empty_cache
+        baseProtocols  0x0
+        ivars          0x0
+        weakIvarLayout 0x0
+        baseProperties 0x0
+Contents of (__DATA,__objc_classrefs) section
+001d979c 0x0
+001d97a0 0x0
+001d97a4 0x0
+001d97a8 0x1d7694 _OBJC_CLASS_$_UIGLView
+001d97ac 0x0
+001d97b0 0x1d7e20 _OBJC_CLASS_$_TextInput
+001d97b4 0x0
+001d97b8 0x0
+001d97bc 0x0
+001d97c0 0x0
+001d97c4 0x0
+001d97c8 0x1d76bc _OBJC_CLASS_$_NetReachability
+001d97cc 0x0
+001d97d0 0x0
+001d97d4 0x1d78fc _OBJC_CLASS_$_Accelerometer
+001d97d8 0x0
+001d97dc 0x0
+001d97e0 0x0
+001d97e4 0x0
+001d97e8 0x0
+001d97ec 0x0
+001d97f0 0x0
+001d97f4 0x0
+001d97f8 0x1d7bc0 _OBJC_CLASS_$_MoviePlayer
+001d97fc 0x0
+001d9800 0x0
+001d9804 0x0
+001d9808 0x0
+001d980c 0x1d753c _OBJC_CLASS_$_GLoftApp
+001d9810 0x1d7cd8 _OBJC_CLASS_$_TextInputInitParams
+001d9814 0x0
+001d9818 0x1d81a4 _OBJC_CLASS_$_IGPLinkGrabber
+001d981c 0x0
+001d9820 0x0
+001d9824 0x0
+001d9828 0x0
+001d982c 0x0
+001d9830 0x0
+001d9834 0x0
+001d9838 0x0
+001d983c 0x0
+001d9840 0x0
+001d9844 0x0
+001d9848 0x0
+001d984c 0x0
+001d9850 0x1d8204 _OBJC_CLASS_$_Reachability
+001d9854 0x0
+001d9858 0x0
+001d985c 0x0
+001d9860 0x0
+001d9864 0x0
+001d9868 0x0
+001d986c 0x0
+001d9870 0x0
+001d9874 0x0
+001d9878 0x1d8408 _OBJC_CLASS_$_ReachabilityQuery
+001d987c 0x0
+001d9880 0x1d8204 _OBJC_CLASS_$_Reachability
+Contents of (__DATA,__objc_superrefs) section
+001d9cb0 0x1d753c _OBJC_CLASS_$_GLoftApp
+001d9cb4 0x1d7694 _OBJC_CLASS_$_UIGLView
+001d9cb8 0x1d76bc _OBJC_CLASS_$_NetReachability
+001d9cbc 0x1d78fc _OBJC_CLASS_$_Accelerometer
+001d9cc0 0x1d7bc0 _OBJC_CLASS_$_MoviePlayer
+001d9cc4 0x1d7e20 _OBJC_CLASS_$_TextInput
+001d9cc8 0x1d8408 _OBJC_CLASS_$_ReachabilityQuery
+001d9ccc 0x1d8204 _OBJC_CLASS_$_Reachability
+Contents of (__DATA,__objc_protolist) section
+001d9e18 0x1d7944
+    isa       0x0
+    name      0x9eed0 UIAccelerometerDelegate
+    protocols 0x1d793c
+        count    1
+        list[0]  0x1d7a58
+            isa       0x0
+            name      0x9eec4 NSObject
+            protocols 0x0 _OBJC_METACLASS_$_NSObject
+            instanceMethods 0x0 _OBJC_METACLASS_$_NSObject
+            classMethods 0x0 __objc_empty_cache
+            optionalInstanceMethods 0x0 __objc_empty_vtable
+            optionalClassMethods 0x0
+            instanceProperties 0x0
+    instanceMethods 0x0
+    classMethods 0x0
+    optionalInstanceMethods 0x1d7928
+        entsize 12
+        count   1
+        name    0x9f02c accelerometer:didAccelerate:
+        types   0x9ec68 v16@0:4@8@12
+        imp     0x0
+    optionalClassMethods 0x0
+    instanceProperties 0x0
+001d9e1c 0x1d7a58
+    isa       0x0
+    name      0x9eec4 NSObject
+    protocols 0x0 _OBJC_METACLASS_$_NSObject
+    instanceMethods 0x0 _OBJC_METACLASS_$_NSObject
+    classMethods 0x0 __objc_empty_cache
+    optionalInstanceMethods 0x0 __objc_empty_vtable
+    optionalClassMethods 0x0
+    instanceProperties 0x0
+001d9e20 0x1d7ec0
+    isa       0x0
+    name      0xa0b18 UITextFieldDelegate
+    protocols 0x1d7eb8
+        count    1
+        list[0]  0x1d7fd4
+            isa       0x0
+            name      0x9eec4 NSObject
+            protocols 0x0
+            instanceMethods 0x1d7ee8
+                entsize 12
+                count   19
+                name    0x9ee04 description
+                types   0x9e8fc @8@0:4
+                imp     0x0
+                name    0x9efe8 retainCount
+                types   0x9f0e4 I8@0:4
+                imp     0x0
+                name    0x9efdc autorelease
+                types   0x9e8fc @8@0:4
+                imp     0x0
+                name    0x9e708 release
+                types   0x9f0dc Vv8@0:4
+                imp     0x0
+                name    0x9efd4 retain
+                types   0x9e8fc @8@0:4
+                imp     0x0
+                name    0x9efc0 respondsToSelector:
+                types   0x9f0d0 c12@0:4:8
+                imp     0x0
+                name    0x9efac conformsToProtocol:
+                types   0x9f0c4 c12@0:4@8
+                imp     0x0
+                name    0x9ef98 isMemberOfClass:
+                types   0x9f0b8 c12@0:4#8
+                imp     0x0
+                name    0x9ef88 isKindOfClass:
+                types   0x9f0b8 c12@0:4#8
+                imp     0x0
+                name    0x9ef80 isProxy
+                types   0x9ed80 c8@0:4
+                imp     0x0
+                name    0x9ef58 performSelector:withObject:withObject:
+                types   0x9f0a8 @20@0:4:8@12@16
+                imp     0x0
+                name    0x9ef3c performSelector:withObject:
+                types   0x9f098 @16@0:4:8@12
+                imp     0x0
+                name    0x9ef28 performSelector:
+                types   0x0 _OBJC_METACLASS_$_NSObject
+                imp     0x0 _OBJC_METACLASS_$_UIViewController
+                name    0x0 __objc_empty_cache
+                types   0x0 __objc_empty_vtable
+                imp     0x0
+                name    0x9ef18 self
+                types   0x9e8fc @8@0:4
+                imp     0x0
+                name    0x9ead0 class
+                types   0x9ec78 #8@0:4
+                imp     0x0
+                name    0x9ef0c superclass
+                types   0x9ec78 #8@0:4
+                imp     0x0
+                name    0x9ef04 hash
+                types   0x9f0e4 I8@0:4
+                imp     0x0 _OBJC_CLASS_$_UIViewController
+                name    0x0 __objc_empty_cache
+                types   0x0 __objc_empty_vtable
+                imp     0x0
+            classMethods 0x0
+            optionalInstanceMethods 0x0
+            optionalClassMethods 0x0
+            instanceProperties 0x0
+    instanceMethods 0x0
+    classMethods 0x0
+    optionalInstanceMethods 0x1d7e5c
+        entsize 12
+        count   7
+        name    0xa0dc0 textFieldShouldReturn:
+        types   0x9f0c4 c12@0:4@8
+        imp     0x0
+        name    0xa0bd8 textFieldShouldClear:
+        types   0x9f0c4 c12@0:4@8
+        imp     0x0
+        name    0x0 _OBJC_CLASS_$_NSObject
+        types   0x0 __objc_empty_cache
+        imp     0x0 __objc_empty_vtable
+        name    0xa0b84 textFieldDidEndEditing:
+        types   0x9e8f0 v12@0:4@8
+        imp     0x0
+        name    0xa0b68 textFieldShouldEndEditing:
+        types   0x9f0c4 c12@0:4@8
+        imp     0x0
+        name    0xa0b4c textFieldDidBeginEditing:
+        types   0x9e8f0 v12@0:4@8
+        imp     0x0
+        name    0xa0d98 textFieldShouldBeginEditing:
+        types   0x9f0c4 c12@0:4@8
+        imp     0x0
+    optionalClassMethods 0x0
+    instanceProperties 0x0
+001d9e24 0x1d7fd4
+    isa       0x0
+    name      0x9eec4 NSObject
+    protocols 0x0
+    instanceMethods 0x1d7ee8
+        entsize 12
+        count   19
+        name    0x9ee04 description
+        types   0x9e8fc @8@0:4
+        imp     0x0
+        name    0x9efe8 retainCount
+        types   0x9f0e4 I8@0:4
+        imp     0x0
+        name    0x9efdc autorelease
+        types   0x9e8fc @8@0:4
+        imp     0x0
+        name    0x9e708 release
+        types   0x9f0dc Vv8@0:4
+        imp     0x0
+        name    0x9efd4 retain
+        types   0x9e8fc @8@0:4
+        imp     0x0
+        name    0x9efc0 respondsToSelector:
+        types   0x9f0d0 c12@0:4:8
+        imp     0x0
+        name    0x9efac conformsToProtocol:
+        types   0x9f0c4 c12@0:4@8
+        imp     0x0
+        name    0x9ef98 isMemberOfClass:
+        types   0x9f0b8 c12@0:4#8
+        imp     0x0
+        name    0x9ef88 isKindOfClass:
+        types   0x9f0b8 c12@0:4#8
+        imp     0x0
+        name    0x9ef80 isProxy
+        types   0x9ed80 c8@0:4
+        imp     0x0
+        name    0x9ef58 performSelector:withObject:withObject:
+        types   0x9f0a8 @20@0:4:8@12@16
+        imp     0x0
+        name    0x9ef3c performSelector:withObject:
+        types   0x9f098 @16@0:4:8@12
+        imp     0x0
+        name    0x9ef28 performSelector:
+        types   0x0 _OBJC_METACLASS_$_NSObject
+        imp     0x0 _OBJC_METACLASS_$_UIViewController
+        name    0x0 __objc_empty_cache
+        types   0x0 __objc_empty_vtable
+        imp     0x0
+        name    0x9ef18 self
+        types   0x9e8fc @8@0:4
+        imp     0x0
+        name    0x9ead0 class
+        types   0x9ec78 #8@0:4
+        imp     0x0
+        name    0x9ef0c superclass
+        types   0x9ec78 #8@0:4
+        imp     0x0
+        name    0x9ef04 hash
+        types   0x9f0e4 I8@0:4
+        imp     0x0 _OBJC_CLASS_$_UIViewController
+        name    0x0 __objc_empty_cache
+        types   0x0 __objc_empty_vtable
+        imp     0x0
+    classMethods 0x0
+    optionalInstanceMethods 0x0
+    optionalClassMethods 0x0
+    instanceProperties 0x0
+Contents of (__DATA,__objc_selrefs) section
+    0x9e814 setSharedInstance:
+    0x9e7e4 initWithTextBuffer:WithSize:AtX:Y:Width:Height:
+    0x9e8a0 dealloc
+    0x9e7d4 systemVersion
+    0x9e7cc cString
+    0x9e7c4 model
+    0x9e7b4 currentDevice
+    0x9e7a0 makeKeyAndVisible
+    0x9e794 addSubview:
+    0x9e778 setMultipleTouchEnabled:
+    0x9e760 isMultipleTouchEnabled
+    0x9e750 initWithFrame:
+    0x9e748 bounds
+    0x9e73c mainScreen
+    0x9e724 setIdleTimerDisabled:
+    0x9e710 isIdleTimerDisabled
+    0x9e708 release
+    0x9e6fc UTF8String
+    0x9e6dc stringByAppendingPathComponent:
+    0x9e6cc objectAtIndex:
+    0x9e6b8 initWithUTF8String:
+    0x9e6b0 alloc
+    0x9eb38 previousLocationInView:
+    0x9ebf0 handleTouchInIGP:
+    0x9eb8c touchesChangedWithEvent:
+    0x9eb7c removeTouch:
+    0x9eb28 locationInView:
+    0x9eb70 addTouch:
+    0x9eb20 phase
+    0x9eaf4 countByEnumeratingWithState:objects:count:
+    0x9eae8 allTouches
+    0x9eb60 getTouchIndex:
+    0x9e8a0 dealloc
+    0x9e708 release
+    0x9eb50 destroySurface
+    0x9ead8 currentContext
+    0x9ead0 class
+    0x9eac8 layer
+    0x9e750 initWithFrame:
+    0x9eab0 presentRenderbuffer:
+    0x9ea8c renderbufferStorage:fromDrawable:
+    0x9ea78 setCurrentContext:
+    0x9ea68 initWithAPI:
+    0x9e6b0 alloc
+    0x9e748 bounds
+    0x9ea50 setDrawableProperties:
+    0x9ea30 dictionaryWithObjectsAndKeys:
+    0x9ea20 numberWithBool:
+    0x9ea0c drawableProperties
+    0x9ea00 setOpaque:
+    0x9e9f4 isOpaque
+    0x9e708 release
+    0x9ec94 new
+    0x9e708 release
+    0x9ed30 isUsingCell
+    0x9ed24 isReachable
+    0x9ed0c initWithDefaultRoute:
+    0x9e6b0 alloc
+    0x9e708 release
+    0x9ee8c init
+    0x9ee24 initWithIPv4Address:
+    0x9ee50 _initWithNetworkReachability:
+    0x9ee3c initWithAddress:
+    0x9ee84 length
+    0x9e6fc UTF8String
+    0x9e8a0 dealloc
+    0x9ead0 class
+    0x9ed24 isReachable
+    0x9ee70 stringWithFormat:
+    0x9f04c getSharedInstance
+    0x9e6b0 alloc
+    0x9f06c z
+    0x9f070 y
+    0x9f074 x
+    0x9f01c setDelegate:
+    0x9f008 setUpdateInterval:
+    0x9eff4 sharedAccelerometer
+    0x9ee8c init
+    0x9f770 isPlaying
+    0x9f764 stopMovie
+    0x9f758 playMovie
+    0x9f73c initWithFile:
+    0x9e6b8 initWithUTF8String:
+    0x9f7a4 freeMovie
+    0x9f708 removeObserver:name:object:
+    0x9f700 stop
+    0x9f6bc scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:
+    0x9f74c execPlay
+    0x9f6b4 play
+    0x9e708 release
+    0x9f6a0 setBackgroundColor:
+    0x9f694 blackColor
+    0x9f684 backgroundColor
+    0x9f66c setMovieControlMode:
+    0x9f658 movieControlMode
+    0x9f648 setScalingMode:
+    0x9f63c scalingMode
+    0x9f618 addObserver:selector:name:object:
+    0x9f724 moviePlayBackDidFinish:
+    0x9f608 defaultCenter
+    0x9e8a0 dealloc
+    0x9f5f4 initWithContentURL:
+    0x9f5e0 fileURLWithPath:
+    0x9f5c8 pathForResource:ofType:
+    0x9f5bc mainBundle
+    0x9e6b0 alloc
+    0x9ee8c init
+    0xa0db8 isDone
+    0xa0d60 performSelectorOnMainThread:withObject:waitUntilDone:
+    0x9e8a8 textInputInit:
+    0x9e8a0 dealloc
+    0xa0d4c removeFromSuperview
+    0x9f708 removeObserver:name:object:
+    0xa0d40 setText:
+    0xa0d2c characterAtIndex:
+    0x9ee84 length
+    0x9e6fc UTF8String
+    0xa0d24 text
+    0xa0d0c resignFirstResponder
+    0xa0d00 isEditing
+    0x9e794 addSubview:
+    0x9e8b8 view
+    0x9e8c0 sharedInstance
+    0x9f618 addObserver:selector:name:object:
+    0xa0dd8 textFieldDidChange:
+    0x9f608 defaultCenter
+    0xa0ce4 setClearsOnBeginEditing:
+    0xa0ccc clearsOnBeginEditing
+    0xa0cbc setTextColor:
+    0x9f694 blackColor
+    0xa0cb0 textColor
+    0xa0c9c setClearButtonMode:
+    0xa0c8c clearButtonMode
+    0x9e708 release
+    0xa0c7c setPlaceholder:
+    0xa0c70 placeholder
+    0x9e6b8 initWithUTF8String:
+    0xa0c5c setKeyboardType:
+    0xa0c4c keyboardType
+    0xa0c30 setAutocapitalizationType:
+    0xa0c18 autocapitalizationType
+    0xa0c08 setBorderStyle:
+    0xa0bfc borderStyle
+    0x9f01c setDelegate:
+    0xa0bf0 delegate
+    0x9e750 initWithFrame:
+    0x9e6b0 alloc
+    0x9ee8c init
+    0xa1090 isEqualToString:
+    0xa1080 objectForKey:
+    0xa1070 currentLocale
+    0xa1064 openURL:
+    0xa1054 initWithString:
+    0xa1044 getFinalLink
+    0xa1028 initWithCharacters:length:
+    0xa1018 currentStatus
+    0xa1004 setStatusBarHidden:
+    0xa0ff0 sharedApplication
+    0xa0fc0 beginGeneratingDeviceOrientationNotifications
+    0x9e748 bounds
+    0x9e73c mainScreen
+    0xa0fb4 orientation
+    0x9e7b4 currentDevice
+    0xa0fa0 getRedirectLink:
+    0x9e708 release
+    0xa0f98 show
+    0xa0f54 initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:
+    0x9e6b8 initWithUTF8String:
+    0x9e6b0 alloc
+    0xa0f38 setStatusBarOrientation:
+    0xa0f20 statusBarOrientation
+    0x9e708 release
+    0xa10d4 size
+    0xa10cc CGImage
+    0xa10bc imageWithData:
+    0xa10a4 dataWithBytes:length:
+    0x9ee8c init
+    0x9e6b0 alloc
+    0x9e708 release
+    0x9e6fc UTF8String
+    0x9f5c8 pathForResource:ofType:
+    0x9f5bc mainBundle
+    0xa10dc isAbsolutePath
+    0x9e6dc stringByAppendingPathComponent:
+    0x9e6cc objectAtIndex:
+    0x9e6b8 initWithUTF8String:
+    0x9e6b0 alloc
+    0x9e708 release
+    0xa0f38 setStatusBarOrientation:
+    0xa0f20 statusBarOrientation
+    0x9ee8c init
+    0x9e6b0 alloc
+    0xa1114 setStatusBarHidden:animated:
+    0x9e6fc UTF8String
+    0x9e6cc objectAtIndex:
+    0xa1080 objectForKey:
+    0xa10fc standardUserDefaults
+    0xa1298 mutableBytes
+    0xa128c appendData:
+    0x9ee84 length
+    0xa1274 expectedContentLength
+    0xa12b4 setDownloadResponse:
+    0xa1268 setLength:
+    0x9e708 release
+    0x9efd4 retain
+    0xa1260 data
+    0xa1244 initWithRequest:delegate:
+    0x9e6b0 alloc
+    0xa1218 requestWithURL:cachePolicy:timeoutInterval:
+    0xa1208 URLWithString:
+    0xa12a8 getLink:
+    0xa11ec internetConnectionStatus
+    0xa11dc setHostName:
+    0xa11c8 sharedReachability
+    0x9e6b0 alloc
+    0x9ee8c init
+    0xa1508 hostName
+    0xa11dc setHostName:
+    0xa14e4 address
+    0xa1854 setAddress:
+    0xa1530 networkStatusNotificationsEnabled
+    0xa182c setNetworkStatusNotificationsEnabled:
+    0xa14a0 reachabilityQueries
+    0xa1860 setReachabilityQueries:
+    0xa18fc stopListeningForReachabilityChanges
+    0x9e708 release
+    0x9e8a0 dealloc
+    0x9ee84 length
+    0x9e6fc UTF8String
+    0xa1974 isReachableWithoutRequiringConnection:
+    0xa1080 objectForKey:
+    0xa1460 reachabilityRef
+    0x9efdc autorelease
+    0xa1400 hostNameOrAddress
+    0xa1764 setHostNameOrAddress:
+    0xa1740 setReachabilityRef:
+    0xa1a60 setObject:forKey:
+    0xa1a50 currentRunLoop
+    0xa17ac scheduleOnRunLoop:
+    0x9f608 defaultCenter
+    0xa1a30 postNotificationName:object:
+    0xa1a1c objectEnumerator
+    0xa1a10 nextObject
+    0xa1438 runLoops
+    0xa1a00 currentHandler
+    0xa19e8 stringWithUTF8String:
+    0xa19ac handleFailureInMethod:object:file:lineNumber:description:
+    0xa1878 addressFromString:address:
+    0xa18e0 reachabilityRefForHostName:
+    0xa18c4 reachabilityRefForAddress:
+    0xa1920 isNetworkAvailableFlags:
+    0xa193c isAdHocWiFiNetworkAvailableFlags:
+    0xa1754 setRunLoops:
+    0xa11c8 sharedReachability
+    0xa199c getCFRunLoop
+    0xa17c0 isScheduledOnRunLoop:
+    0xa177c startListeningForReachabilityChanges:onRunLoop:
+Contents of (__DATA,__objc_imageinfo) section
+    version 0
+    flags   0x0

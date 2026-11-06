@@ -1,0 +1,33 @@
+2:[02:48:58.531] [INFO] [GL] vitaGL: FBO 320x480 -> screen 960x544 at x=0
+8:[02:48:58.731] [INFO] rebase: 4819 words
+9:[02:48:58.763] [INFO] imports: 468 slots, 0 unimplemented
+12:[02:48:58.793] [INFO] global constructors: 3 done
+14:[02:48:58.815] [INFO] [BOOT] UIApplicationMain(delegate GLoftApp)
+15:[02:48:58.815] [INFO] [BOOT] -> applicationDidFinishLaunching:
+16:[02:48:58.878] [INFO] [VIDEO] MPMoviePlayerController init url 'ux0:data/asphalt4eliteracing/ASPHALT4.app/asphalt4.mp4' -> 'ux0:data/asphalt4eliteracing/ASPHALT4.app/asphalt4.mp4'
+18:[02:48:58.898] [INFO] [BOOT] pthread_create(0x0005D1D4) -> 0
+22:[02:48:58.903] [INFO] [BOOT] delegate ok (GL view 0x823e53b8, class UIGLView)
+26:[02:48:58.928] [INFO] [GL] EAGL drawable renderbuffer = 1 (320x480)
+27:[02:48:58.951] [INFO] [GL] EAGL window framebuffer = 2
+44:[02:48:59.140] [INFO] [GL] first presentRenderbuffer: (frame 1 on screen)
+45:[02:48:59.161] [INFO] [GL] game device orientation: raw 1 -> blit 2
+47:[02:49:03.126] [INFO] [VIDEO] MPMoviePlayerController play 'ux0:data/asphalt4eliteracing/ASPHALT4.app/asphalt4.mp4'
+48:[02:49:03.159] [INFO] [VIDEO] play returned (played or skipped by the user)
+54:[02:49:07.659] [INFO] [GL] game device orientation: raw 2 -> blit 2
+553:[02:49:10.293] [INFO] [BOOT] GetDeviceLanguage -> en (Vita language 1)
+1917:[02:49:21.394] [INFO] [AUDIO] AudioFileStream #1: PCM 44100 Hz 1 ch 16 bit, 166824 bytes
+1918:[02:49:21.411] [INFO] [AUDIO] AudioFileStream #2: PCM 44100 Hz 1 ch 16 bit, 101120 bytes
+1919:[02:49:21.423] [INFO] [AUDIO] AudioFileStream #3: PCM 44100 Hz 1 ch 16 bit, 361984 bytes
+1920:[02:49:21.434] [INFO] [AUDIO] AudioFileStream #16: PCM 44100 Hz 1 ch 16 bit, 24320 bytes
+1921:[02:49:21.453] [INFO] [AUDIO] BGM unloaded
+1922:[02:49:21.643] [INFO] [AUDIO] BGM loaded 'ux0:data/asphalt4eliteracing/ASPHALT4.app/m_title.wav' (44100 Hz, ch=2, sz=10225240 B) -> buffer 37
+1923:[02:49:21.792] [INFO] [AUDIO] BGM started (loop=1)
+1935:[02:49:50.517] [INFO] [AUDIO] BGM stopped
+1936:[02:49:50.548] [INFO] [AUDIO] BGM unloaded
+2611:[02:50:02.606] [INFO] [AUDIO] BGM unloaded
+2612:[02:50:02.780] [INFO] [AUDIO] BGM loaded 'ux0:data/asphalt4eliteracing/ASPHALT4.app/m_bgm6.wav' (44100 Hz, ch=2, sz=8467144 B) -> buffer 37
+2616:[02:50:10.845] [INFO] [AUDIO] BGM started (loop=1)
+2617:[02:50:11.054] [INFO] [AUDIO] BGM stopped
+2619:[02:50:21.226] [INFO] [AUDIO] BGM unloaded
+2620:[02:50:21.595] [INFO] [AUDIO] BGM loaded 'ux0:data/asphalt4eliteracing/ASPHALT4.app/m_bgm6.wav' (44100 Hz, ch=2, sz=8467144 B) -> buffer 37
+2621:[02:50:21.604] [INFO] [AUDIO] BGM started (loop=1)
